@@ -1,0 +1,159 @@
+    1  cat /var/ftp
+    2  cat /var
+    3  cd var
+    4  cd /var
+    5  ls
+    6  cd mail
+    7  ls
+    8  cat rpc
+    9  cd ../..
+   10  cd root
+   11  clear
+   12  useradd  nraj
+   13  cat /etc/passwd
+   14  tail /etc/group
+   15  tail /etc/shadow
+   16  useradd -u 1050 -c MGR -s /bin/csh raj
+   17  tail -6 /etc/passwd
+   18  passwd raj
+   19  tail -6 /etc/shadow
+   20  user -l joker raj
+   21  usermod -l joker raj
+   22  tail -6 /etc/passwd
+   23  usermod -L joker raj
+   24  usermod -L joker
+   25  passwd -s joker
+   26  passwd - joker
+   27  passwd -S joker
+   28  chage joker
+   29  tail -6 /etc/passwd
+   30  tail -6 /etc/shadow
+   31  usedel joker
+   32  userdel joker
+   33  tail -6 /etc/shadow
+   34  useradd -u 1376 -G 289  nraj
+   35  useradd -u 1376 -G 2899  nraj
+   36  useradd -u 1376 -G 1987  nraj
+   37  useradd -u 1376 -G 1000  nraj
+   38  useradd -u 1376 -G 1000  man
+   39  useradd -u 1376 -G 1000  nam
+   40  useradd -u 1376 -G 1009  hello
+   41  useradd -u 1376 -G 1001  hello
+   42  useradd -u 1379 -G 1001  hello
+   43  tail -6 /etc/passwd
+   44  tail /etdc/group
+   45  tail /etc/group
+   46  group -g 1050 nagraj
+   47  groupadd -g 1050 nagraj
+   48  groupadd -g 1059 nagraj
+   49  tail /etc/group
+   50  groupadd -n hai nagraj
+   51  groupadd -n hai nagraj
+   52  groumod -n hai nagraj
+   53  groupmod -n hai nagraj
+   54  groupmod -g 1111 nagraj
+   55  groupmod -g 1111 hai
+   56  tail /etc/group
+   57  groupadd -M hai,hello raj
+   58  gpasswd -M hai,hello raj
+   59  tail /etc/passwd
+   60  gpasswd -M nam,hello raj
+   61  tail /etc/group
+   62  gpasswd -a nraj raj
+   63  tail /etc/group
+   64  gpasswd -A nraj raj
+   65  tail /etc/group
+   66  tail /etc/gshadow
+   67  tail /etc/passwd
+   68  gpasswd -d nraj raj
+   69  tail /etc/passwd
+   70  tail /etc/gpasswd
+   71  tail /etc/gshadow
+   72  tail /etc/group
+   73  tail /etc/passwd
+   74  ls
+   75  ll
+   76  home
+   77  cd home
+   78  cd /
+   79  cd home
+   80  ls
+   81  ls
+   82  cd ..
+   83  cd etc
+   84  ls
+   85  cat passwd
+   86  gpasswd -a nraj raj\\
+   87  clear
+   88  cd ..
+   89  cd _
+   90  cd -
+   91  cd ..
+   92  c
+   93  git -v
+   94  yum update -y
+   95  yum install git
+   96  git init
+   97  git add origin "https://github.com/nagraj413/nagraj413.git"
+   98  git remote add origin "https://github.com/nagraj413/nagraj413.git"
+   99  git status
+  100  cat>raj
+  101  ls
+  102  ll
+  103  git clone "https://github.com/nagraj413/nagraj413.git"
+  104  ls
+  105  mv raj nagraj413
+  106  cd nagraj413
+  107  ls
+  108  git add .
+  109  git status
+  110  git commit -m "this is new file"
+  111  git commit --global user.name "raj"
+  112  git commit --global user.name "raj"
+  113  git config --global user.name "raj"
+  114  git config --global user.mail "nraj@nraj"
+  115  git commit -m "this is new file"
+  116  git push origin masrer
+  117  git push origin master
+  118  git push origin main
+  119  git push origin main
+  120  git checkout origin
+  121  git status
+  122  ls
+  123  git branch
+  124  git branch -a
+  125  git checkout raj
+  126  cd ..
+  127  git branch
+  128  cd nagraj413
+  129  ls
+  130  cd ~
+  131  git branch
+  132  git clone "https://github.com/nagraj413/nagraj413.git"
+  133  ls
+  134  cd nagraj413
+  135  ls
+  136  git checkout master
+  137  cd..
+  138  cd ..
+  139  ls
+  140  git branch
+  141  cd nagraj413
+  142  cd nagraj413
+  143  ll
+  144  git swicth raj
+  145  git --help
+  146  git switch raj
+  147  ls
+  148  cat file1
+  149  cat raju01
+  150  cat README.md 
+  151  git -delete -d raj
+  152  history
+  153  history >cat comands
+  154  history >cat -n comands
+  155  cat -n comands
+  156  cat comands
+  157  cd ..
+  158  history
+  159  history >raj
