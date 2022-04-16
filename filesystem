@@ -1,0 +1,30 @@
+linux file system is tree like system where root filesytem denote with /
+/boot :where it is contain boot required files. ex:grub config files, linux config files.
+/root :which is root user home directory. 
+/home :which is a users home directory.
+/bin :it contains all the commands 
+/sbin : it contains all commands run by root user.
+/etc : it contains all configaration files
+/usr : it contains all user install packages /programs .
+/dev : it contains all device files .
+/var : it vontians all variable files i.e log files.
+/mnt : it is a mount access device.
+/temp : it contains all system temporary files.
+/proc : it contains all runnning system informaton .that is runniing process.
+/opt :it's optional directory.
+/lib : it contains all the library files.
+there are three types of file system in linux operating system.
+              1.regualar files. 
+              2.directory files.
+              3.special files.
+1.regular files: the ex of regualar file is bin files, audio ,video ,etc are regualar files.
+2.direcory files :dir and folders.
+3.special files: blog devic,char devic ,link files, sockets,named pipes etc.
+symols to identfie the files.                                                      
+- represents regular file.
+d : represents directory file.
+c :represents character device file [ex:terminals ]
+b: block device file [ex:cd,hdd,sdd,dvd ..etc]
+s :socketfiles
+p :named pipe
+l :linked files [ex:softlinks or symbolic links].
