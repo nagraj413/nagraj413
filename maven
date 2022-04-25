@@ -1,0 +1,10 @@
+jenkins :
+jenkin is leading open-source tool to perform continuous integration and continuous development
+in software development
+  
+  
+  it is a software development practice in which we wil automatically build, test and deploy software
+  projects every time whenever a developer pushes code change to the repository.
+  
+  default home directory of jenkins .jenkins
+  full path /home/nraj/.jenkins
