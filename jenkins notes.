@@ -1,2 +1,0 @@
-jenkins home direcoty is /home/username/.jenkins
-to see jenkins variables. in url http://ip:8080/env-vars.html
